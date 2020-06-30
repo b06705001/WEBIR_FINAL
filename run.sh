@@ -23,5 +23,5 @@ case "$method" in
                 python sentence_embedding.py true;
                 python bert_KNN.py;;
     "tf-idf") python TF_IDF.py;;
-    "bigram") python bigram.py;;
+    "bigram") python Bigram.py;;
 esac
